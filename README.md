@@ -9,3 +9,9 @@
 ```cmd
   npm run dev
 ```
+
+Для сборки:
+
+```cmd
+  npm run build
+```
