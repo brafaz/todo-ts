@@ -1,0 +1,60 @@
+.todo-item.active .todo-item-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(59, 59, 59);
+  padding: 15px;
+  height: auto;
+  width: 100%;
+}
+.todo-item .todo-item-text {
+  text-decoration: line-through;
+  color: rgb(122, 122, 122);
+  text-align: center;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.todo-item-btn-delete {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  border: none;
+  color: #bb1a1a;
+  padding: 10px;
+  font-weight: bold;
+}
+.todo-item-btn-edit {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  border: none;
+  color: #bb681a;
+  padding: 10px;
+  font-weight: bold;
+}
+.todo-item-btn-edit:hover {
+  background-color: #808080;
+}
+.todo-item-btn-delete:hover {
+  background-color: #808080;
+}
+.todo-item-control-block {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.todo-item-control-block-input {
+  width: 20px;
+}
+.todo-item-control-block-item {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
